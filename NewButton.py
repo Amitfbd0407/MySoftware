@@ -6,7 +6,6 @@ class Button:
         print("Click")
 
 
-# Example usage:
 if __name__ == "__main__":
     button = Button("Submit")
     button.click()  # This will print "Click"
