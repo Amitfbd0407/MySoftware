@@ -1,6 +1,6 @@
 class Button:
     def __init__(self, label):
-        self.label = label  # Button label
+        self.label = label 
 
     def click(self):
         print("Click")
@@ -8,4 +8,4 @@ class Button:
 
 if __name__ == "__main__":
     button = Button("Submit")
-    button.click()  # This will print "Click"
+    button.click()  
